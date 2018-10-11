@@ -30,10 +30,10 @@
                     ?> 
                     <div class="single_latest">
                         <h2><?php echo $run_cat_row['cat_name'];?></h2>
-                        <h4><a href="single.php?post_id=<?php echo $post_id;?>"><?php echo $post_title;?></a></h4>
+                        <h2><a href="single.php?post_id=<?php echo $post_id;?>" style="color:red;"><?php echo $post_title;?></a></h2>
                         <p style="margin-bottom:10px"><strong><span>Course Author: <em><?php echo $post_author;?></em></span><span> | </span><span>Started Date: <em><?php echo $post_date;?></em></span></strong></p>
                         <?php echo $post_content;?>
-                        <div class="readmore clearfix"><a href="single.php?post_id=<?php echo $post_id;?>">Read More</a></div>
+                        <div class="readmore clearfix"><a href="single.php?post_id=<?php echo $post_id;?>" style="color:red;">Read More</a></div>
                     </div> 
                     <?php endwhile;?> 
                     <?php

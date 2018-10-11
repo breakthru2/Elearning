@@ -24,7 +24,7 @@
                                 <div class="image-wrapper"><a href="single.php?post_id=<?php echo $post_id;?>"><img src="<?php echo 'images/'.$post_image;?>"></a></div>
                             </figure>
                             <div class="description">
-                                <a href="single.php?post_id=<?php echo $post_id;?>"><h3><?php echo $post_title;?></h3></a>
+                                <a href="single.php?post_id=<?php echo $post_id;?>" style="color:red;"><h3><?php echo $post_title;?></h3></a>
                                
                                 <hr>
                                 <div class="course-meta">
